@@ -1,0 +1,17 @@
+%container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+%clearfix {
+  &:after {
+    clear: both;
+    content: '';
+    display: block;
+  }
+  &:before {
+    clear: both;
+    content: '';
+    display: block;
+  }
+}

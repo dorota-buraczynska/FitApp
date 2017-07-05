@@ -1,0 +1,61 @@
+.nav {
+  @extend %clearfix;
+  background-color: $main-color;
+
+  &__wrapper {
+    @extend %container;
+    text-align: right;
+  }
+
+  &__logo {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &__menu {
+    display: inline-block;
+    text-align: right;
+    width: 83%;
+    vertical-align: middle;
+  }
+
+  &__menu-item {
+    list-style-type: none;
+    display: inline-block;
+    padding: 40px 0;
+
+    &:last-child {
+      position: relative;
+
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        width: 128px;
+        height: 40px;
+        background-color: white;
+        border-radius: 20px;
+      }
+
+      & .nav__menu-item-link {
+        position: relative;
+        color: $main-color;
+        font-weight: bold;
+        z-index: 1;
+      }
+    }
+
+  }
+
+  &__menu-item-link {
+    text-decoration: none;
+    color: $menu-text-color;
+    text-transform: capitalize;
+    padding: 32px;
+    font: {
+      size: 18px;
+    }
+  }
+}
