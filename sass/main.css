@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif; }
 
-.nav__wrapper {
+.nav__wrapper, .about-app__wrapper {
   max-width: 1240px;
   margin: 0 auto; }
 
@@ -18,9 +18,11 @@
   display: block; }
 
 .nav {
-  background-color: #2ecc71; }
+  background-color: #2ecd71;
+  position: relative;
+  z-index: 1; }
   .nav__wrapper {
-    text-align: right; }
+    text-align: center; }
   .nav__logo {
     display: inline-block;
     vertical-align: middle; }
@@ -47,7 +49,7 @@
         border-radius: 20px; }
       .nav__menu-item:last-child .nav__menu-item-link {
         position: relative;
-        color: #2ecc71;
+        color: #2ecd71;
         font-weight: bold;
         z-index: 1; }
   .nav__menu-item-link {
@@ -56,5 +58,35 @@
     text-transform: capitalize;
     padding: 32px;
     font-size: 18px; }
+
+.about-app {
+  background-image: url("../images/FitApp_Landing_Page_02.jpg");
+  background-size: cover;
+  width: 100%; }
+  .about-app__wrapper {
+    font-size: 0;
+    padding: 46px 40px 51px 40px; }
+  .about-app__info {
+    display: inline-block;
+    width: 65%;
+    color: #fefefe;
+    vertical-align: top;
+    padding-right: 80px; }
+  .about-app__app-icon {
+    padding-top: 112px; }
+  .about-app__info-heading {
+    padding-top: 66px;
+    padding-bottom: 37px;
+    font-size: 63px;
+    font-weight: 300; }
+  .about-app__info-text {
+    padding-bottom: 58px;
+    font-size: 18px; }
+  .about-app__phone-image {
+    display: inline-block;
+    width: 35%;
+    vertical-align: top; }
+  .about-app__store-icon {
+    margin-right: 37px; }
 
 /*# sourceMappingURL=main.css.map */

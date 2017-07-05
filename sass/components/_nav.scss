@@ -1,10 +1,12 @@
 .nav {
   @extend %clearfix;
   background-color: $main-color;
+  position: relative;
+  z-index: 1;
 
   &__wrapper {
     @extend %container;
-    text-align: right;
+    text-align: center;
   }
 
   &__logo {
