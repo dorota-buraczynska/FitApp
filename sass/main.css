@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif; }
 
-.nav__wrapper, .about-app__wrapper {
+.nav__wrapper, .about-app__wrapper, .features__wrapper, .diet-plan__wrapper {
   max-width: 1240px;
   margin: 0 auto; }
 
@@ -60,33 +60,94 @@
     font-size: 18px; }
 
 .about-app {
-  background-image: url("../images/FitApp_Landing_Page_02.jpg");
+    background-image: url("../images/bg_02.jpg");
   background-size: cover;
   width: 100%; }
   .about-app__wrapper {
     font-size: 0;
-    padding: 46px 40px 51px 40px; }
+      padding: 46px 40px 50px 40px;
+  }
   .about-app__info {
     display: inline-block;
-    width: 65%;
+      width: 50%;
     color: #fefefe;
-    vertical-align: top;
-    padding-right: 80px; }
+      vertical-align: top;
+  }
   .about-app__app-icon {
     padding-top: 112px; }
   .about-app__info-heading {
     padding-top: 66px;
-    padding-bottom: 37px;
+      padding-bottom: 10px;
     font-size: 63px;
     font-weight: 300; }
   .about-app__info-text {
-    padding-bottom: 58px;
-    font-size: 18px; }
-  .about-app__phone-image {
+      padding-bottom: 47px;
+      line-height: 36px;
+      font-size: 18px;
+      font-weight: 300;
+  }
+
+.about-app__phone-image-wrapper {
     display: inline-block;
-    width: 35%;
-    vertical-align: top; }
+    width: 50%;
+    vertical-align: top;
+    text-align: right;
+}
+
+.about-app__phone-image {
+    max-width: 100%;
+}
   .about-app__store-icon {
-    margin-right: 37px; }
+      margin-right: 28px;
+  }
+
+.features {
+    padding-bottom: 96px;
+}
+
+.features__wrapper {
+    font-size: 0;
+}
+
+.features__image-wrapper {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    margin-top: 47px;
+}
+
+.features__image {
+    max-width: 100%;
+}
+
+.features__info {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    color: black;
+    padding: 30px 0 0 30px;
+}
+
+.features__info-heading {
+    padding-bottom: 20px;
+    font-size: 54px;
+    font-weight: 300;
+}
+
+.features__info-heading span {
+    color: #2ecd71;
+}
+
+.features__info-text {
+    line-height: 36px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.diet-plan {
+    background-image: url("../images/plan-your-diet-bg.jpg");
+    background-size: cover;
+    width: 100%;
+}
 
 /*# sourceMappingURL=main.css.map */

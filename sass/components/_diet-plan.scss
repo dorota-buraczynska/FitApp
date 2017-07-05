@@ -1,0 +1,9 @@
+.diet-plan {
+  background-image: url("../images/plan-your-diet-bg.jpg");
+  background-size: cover;
+  width: 100%;
+
+  &__wrapper {
+    @extend %container;
+  }
+}
