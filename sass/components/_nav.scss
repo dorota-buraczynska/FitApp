@@ -6,18 +6,20 @@
 
   &__wrapper {
     @extend %container;
-    text-align: center;
+    text-align: left;
+    font-size: 0;
   }
 
-  &__logo {
+  &__logo-wrapper {
     display: inline-block;
     vertical-align: middle;
+    width: 15%;
   }
 
   &__menu {
     display: inline-block;
     text-align: right;
-    width: 83%;
+    width: 85%;
     vertical-align: middle;
   }
 

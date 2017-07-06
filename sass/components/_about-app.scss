@@ -7,23 +7,26 @@
   &__wrapper {
     @extend %container;
     font-size: 0;
-    padding: 46px 40px 50px 40px;
+    padding-bottom: 50px;
 
   }
 
   &__info {
     display: inline-block;
-    width: 50%;
+    width: 55%;
     color: $menu-text-color;
     vertical-align: top;
+    padding-left: 10px;
   }
 
   &__app-icon {
     padding-top: 112px;
+    display: block;
+    position: relative;
+    left: -50px;
   }
 
   &__info-heading {
-    padding-top: 66px;
     padding-bottom: 10px;
     font: {
       size: $main-font-size*3.5;
@@ -41,8 +44,9 @@
   }
 
   &__phone-image-wrapper {
+    padding-top: 46px;
     display: inline-block;
-    width: 50%;
+    width: 45%;
     vertical-align: top;
     text-align: right;
   }
@@ -53,5 +57,9 @@
 
   &__store-icon {
     margin-right: 28px;
+  }
+
+  &:first-child {
+    padding-left: 47px;
   }
 }

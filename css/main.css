@@ -6,7 +6,8 @@
 
 .nav__wrapper, .about-app__wrapper, .features__wrapper, .diet-plan__wrapper, .meal-time__wrapper, .footer__wrapper {
   max-width: 1240px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0 20px; }
 
 .nav:after {
   clear: both;
@@ -23,14 +24,16 @@
   position: relative;
   z-index: 1; }
   .nav__wrapper {
-    text-align: center; }
-  .nav__logo {
+    text-align: left;
+    font-size: 0; }
+  .nav__logo-wrapper {
     display: inline-block;
-    vertical-align: middle; }
+    vertical-align: middle;
+    width: 15%; }
   .nav__menu {
     display: inline-block;
     text-align: right;
-    width: 83%;
+    width: 85%;
     vertical-align: middle; }
   .nav__menu-item {
     list-style-type: none;
@@ -67,16 +70,19 @@
   min-height: 849px; }
   .about-app__wrapper {
     font-size: 0;
-    padding: 46px 40px 50px 40px; }
+    padding-bottom: 50px; }
   .about-app__info {
     display: inline-block;
-    width: 50%;
+    width: 55%;
     color: #fefefe;
-    vertical-align: top; }
+    vertical-align: top;
+    padding-left: 10px; }
   .about-app__app-icon {
-    padding-top: 112px; }
+    padding-top: 112px;
+    display: block;
+    position: relative;
+    left: -50px; }
   .about-app__info-heading {
-    padding-top: 66px;
     padding-bottom: 10px;
     font-size: 63px;
     font-weight: 300; }
@@ -86,14 +92,17 @@
     font-size: 18px;
     font-weight: 300; }
   .about-app__phone-image-wrapper {
+    padding-top: 46px;
     display: inline-block;
-    width: 50%;
+    width: 45%;
     vertical-align: top;
     text-align: right; }
   .about-app__phone-image {
     max-width: 100%; }
   .about-app__store-icon {
     margin-right: 28px; }
+  .about-app:first-child {
+    padding-left: 47px; }
 
 .features {
   padding-bottom: 96px; }
