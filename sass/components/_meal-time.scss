@@ -1,0 +1,162 @@
+.meal-time {
+
+  &__wrapper {
+    @extend %container;
+    font-size: 0;
+    position: relative;
+    height: 705px;
+  }
+
+  &__info {
+    display: inline-block;
+    width: 55%;
+  }
+
+  &__products {
+    display: inline-block;
+    width: 45%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    padding-top: 37px;
+    text-align: -webkit-center;
+  }
+
+  &__product {
+    border: 1px solid #fff8f8;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 1px #dcdada;
+    margin-bottom: 36px;
+    padding: 25px 10px;
+    width: 420px;
+    text-align: left;
+
+    &--large {
+      padding: 10px;
+      width: 520px;
+    }
+  }
+
+  &__product-description {
+  }
+
+  &__product-title {
+    color: $main-color;
+    font: {
+      size: 16px;
+      weight: bold;
+    }
+
+    &--large {
+      font: {
+        size: 19px;
+      }
+    }
+  }
+
+  &__product-info {
+    font: {
+      size: 13px;
+      weight: 300;
+    }
+
+    &--large {
+      font: {
+        size: 16px;
+      }
+    }
+  }
+
+  &__product-content {
+    color: $main-color;
+    font: {
+      size: 13px;
+      weight: bold;
+    }
+
+    & span {
+      color: black;
+      position: relative;
+      top: -2px;
+      font: {
+        size: 7px;
+        weight: 300;
+      }
+    }
+
+    &--large {
+      font: {
+        size: 16px;
+      }
+    }
+  }
+
+  &__product-img-wrapper,
+  &__product-description,
+  &__time {
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+  &__product-img-wrapper {
+    width: 30%;
+  }
+
+  &__product-description {
+    width: 38%;
+  }
+
+  &__time {
+    text-align: right;
+    width: 30%;
+  }
+
+  &__hour {
+    font: {
+      size: 24px;
+      weight: bold;
+    }
+
+    &--large {
+      font: {
+        size: 30px;
+      }
+    }
+  }
+
+  &__part-of-a-day {
+    font: {
+      size: 16px;
+      weight: bold;
+    }
+
+    &--large {
+      font: {
+        size: 19px;
+      }
+    }
+  }
+
+  &__info-heading {
+    padding-bottom: 20px;
+    font: {
+      size: $main-font-size*3;
+      weight: 300;
+    }
+
+    & span {
+      color: $main-color;
+    }
+  }
+
+  &__info-text {
+    line-height: $main-font-size*2;
+    font: {
+      size: $main-font-size;
+      weight: 300;
+    }
+  }
+}
+
+
+

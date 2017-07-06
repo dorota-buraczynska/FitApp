@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif; }
 
-.nav__wrapper, .about-app__wrapper, .features__wrapper, .diet-plan__wrapper {
+.nav__wrapper, .about-app__wrapper, .features__wrapper, .diet-plan__wrapper, .meal-time__wrapper {
   max-width: 1240px;
   margin: 0 auto; }
 
@@ -142,3 +142,97 @@
     line-height: 36px;
     font-size: 18px;
     font-weight: 300; }
+
+.meal-time__wrapper {
+  font-size: 0;
+  position: relative;
+  height: 705px; }
+
+.meal-time__info {
+  display: inline-block;
+  width: 55%; }
+
+.meal-time__products {
+  display: inline-block;
+  width: 45%;
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+  padding-top: 37px;
+  text-align: -webkit-center; }
+
+.meal-time__product {
+  border: 1px solid #fff8f8;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 1px #dcdada;
+  margin-bottom: 36px;
+  padding: 25px 10px;
+  width: 420px;
+  text-align: left; }
+  .meal-time__product--large {
+    padding: 10px;
+    width: 520px; }
+
+.meal-time__product-title {
+  color: #2ecd71;
+  font-size: 16px;
+  font-weight: bold; }
+  .meal-time__product-title--large {
+    font-size: 19px; }
+
+.meal-time__product-info {
+  font-size: 13px;
+  font-weight: 300; }
+  .meal-time__product-info--large {
+    font-size: 16px; }
+
+.meal-time__product-content {
+  color: #2ecd71;
+  font-size: 13px;
+  font-weight: bold; }
+  .meal-time__product-content span {
+    color: black;
+    position: relative;
+    top: -2px;
+    font-size: 7px;
+    font-weight: 300; }
+  .meal-time__product-content--large {
+    font-size: 16px; }
+
+.meal-time__product-img-wrapper, .meal-time__product-description, .meal-time__time {
+  vertical-align: middle;
+  display: inline-block; }
+
+.meal-time__product-img-wrapper {
+  width: 30%; }
+
+.meal-time__product-description {
+  width: 38%; }
+
+.meal-time__time {
+  text-align: right;
+  width: 30%; }
+
+.meal-time__hour {
+  font-size: 24px;
+  font-weight: bold; }
+  .meal-time__hour--large {
+    font-size: 30px; }
+
+.meal-time__part-of-a-day {
+  font-size: 16px;
+  font-weight: bold; }
+  .meal-time__part-of-a-day--large {
+    font-size: 19px; }
+
+.meal-time__info-heading {
+  padding-bottom: 20px;
+  font-size: 54px;
+  font-weight: 300; }
+  .meal-time__info-heading span {
+    color: #2ecd71; }
+
+.meal-time__info-text {
+  line-height: 36px;
+  font-size: 18px;
+  font-weight: 300; }
