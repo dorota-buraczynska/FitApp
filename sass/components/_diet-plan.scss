@@ -1,9 +1,33 @@
 .diet-plan {
   background-image: url("../images/plan-your-diet-bg.jpg");
   background-size: cover;
+  background-position-x: 43%;
   width: 100%;
+  height: 926px;
 
   &__wrapper {
     @extend %container;
+    text-align: center;
+    padding: 130px 130px 0 130px;
+  }
+
+  &__heading {
+    padding-bottom: 20px;
+    font: {
+      size: $main-font-size*3;
+      weight: 300;
+    }
+
+    & span {
+      color: $main-color;
+    }
+  }
+
+  &__text {
+    line-height: $main-font-size*2;
+    font: {
+      size: $main-font-size;
+      weight: 300;
+    }
   }
 }
