@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif; }
 
-.nav__wrapper, .about-app__wrapper, .features__wrapper, .diet-plan__wrapper, .meal-time__wrapper {
+.nav__wrapper, .about-app__wrapper, .features__wrapper, .diet-plan__wrapper, .meal-time__wrapper, .footer__wrapper {
   max-width: 1240px;
   margin: 0 auto; }
 
@@ -167,11 +167,11 @@
   box-shadow: 0 0 2px 1px #dcdada;
   margin-bottom: 36px;
   padding: 25px 10px;
-  width: 420px;
+  max-width: 420px;
   text-align: left; }
   .meal-time__product--large {
     padding: 10px;
-    width: 520px; }
+    max-width: 520px; }
 
 .meal-time__product-title {
   color: #2ecd71;
@@ -205,13 +205,20 @@
 
 .meal-time__product-img-wrapper {
   width: 30%; }
+  .meal-time__product-img-wrapper--large {
+    width: 35%; }
 
 .meal-time__product-description {
-  width: 38%; }
+  width: 35%; }
+  .meal-time__product-description--large {
+    width: 35%; }
 
 .meal-time__time {
   text-align: right;
-  width: 30%; }
+  padding-right: 10px;
+  width: 35%; }
+  .meal-time__time--large {
+    width: 30%; }
 
 .meal-time__hour {
   font-size: 24px;
@@ -236,3 +243,30 @@
   line-height: 36px;
   font-size: 18px;
   font-weight: 300; }
+
+.footer {
+  background-image: url("../images/footer_06.jpg");
+  background-size: cover; }
+  .footer__wrapper {
+    text-align: center;
+    padding: 100px; }
+  .footer__heading {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 54px;
+    font-weight: 300; }
+  .footer__text {
+    color: white;
+    padding-bottom: 46px;
+    line-height: 36px;
+    font-size: 18px;
+    font-weight: 300; }
+  .footer__button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    color: #2ecd71;
+    padding: 10px 90px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold; }

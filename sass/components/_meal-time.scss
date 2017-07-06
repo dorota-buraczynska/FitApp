@@ -28,12 +28,12 @@
     box-shadow: 0 0 2px 1px #dcdada;
     margin-bottom: 36px;
     padding: 25px 10px;
-    width: 420px;
+    max-width: 420px;
     text-align: left;
 
     &--large {
       padding: 10px;
-      width: 520px;
+      max-width: 520px;
     }
   }
 
@@ -100,15 +100,28 @@
 
   &__product-img-wrapper {
     width: 30%;
+
+    &--large {
+      width: 35%;
+    }
   }
 
   &__product-description {
-    width: 38%;
+    width: 35%;
+
+    &--large {
+      width: 35%;
+    }
   }
 
   &__time {
     text-align: right;
-    width: 30%;
+    padding-right: 10px;
+    width: 35%;
+
+    &--large {
+      width: 30%;
+    }
   }
 
   &__hour {

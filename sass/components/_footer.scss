@@ -1,0 +1,42 @@
+.footer {
+  background-image: url("../images/footer_06.jpg");
+  background-size: cover;
+
+  &__wrapper {
+    @extend %container;
+    text-align: center;
+    padding: 100px;
+  }
+
+  &__heading {
+    color: white;
+    padding-bottom: 20px;
+    font: {
+      size: $main-font-size*3;
+      weight: 300;
+    }
+  }
+
+  &__text {
+    color: white;
+    padding-bottom: 46px;
+    line-height: $main-font-size*2;
+    font: {
+      size: $main-font-size;
+      weight: 300;
+    }
+  }
+
+  &__button {
+    background-color: $secondary-color;
+    border: none;
+    border-radius: 20px;
+    color: $main-color;
+    padding: 10px 90px;
+    cursor: pointer;
+    font: {
+      size: 16px;
+      weight: bold;
+    }
+  }
+}
