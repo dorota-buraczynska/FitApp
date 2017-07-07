@@ -8,21 +8,86 @@
 
   &__image-wrapper {
     display: inline-block;
-    width: 49%;
+    width: 47%;
     vertical-align: middle;
     margin-top: 47px;
+    position: relative;
   }
 
   &__image {
     max-width: 100%;
   }
 
+  &__icon {
+    width: 50px;
+    height: 50px;
+    background-color: gainsboro;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+
+    &:hover {
+      width: 70px;
+      height: 70px;
+      background-color: $main-color;
+      transform: translate(-14%, -15%);
+      border: 3px solid white;
+
+      & .features__icon-img {
+        width: 27px;
+      }
+    }
+
+    &--1 {
+      top: 15%;
+      left: 65%;
+    }
+
+    &--2 {
+      top: 25%;
+      left: 84%;
+    }
+
+    &--3 {
+      width: 70px;
+      height: 70px;
+      background-color: $main-color;
+      transform: translate(-14%, -15%);
+      border: 3px solid white;
+      top: 44%;
+      left: 93%;
+
+      & .features__icon-img {
+        width: 27px;
+      }
+    }
+
+    &--4 {
+      top: 66%;
+      left: 85%;
+    }
+
+    &--5 {
+      top: 78%;
+      left: 64%;
+    }
+  }
+
+  &__icon-img {
+    width: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   &__info {
     display: inline-block;
     vertical-align: middle;
-    width: 51%;
+    width: 53%;
     color: black;
-    padding: 30px 0 0 27px;
+    padding: 30px 0 0 51px;
   }
 
   &__info-heading {
@@ -44,4 +109,5 @@
       weight: 300;
     }
   }
+
 }
