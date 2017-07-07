@@ -64,7 +64,7 @@
     font-size: 18px; }
 
 .about-app {
-  background-image: url("../images/bg_02.jpg");
+  background-image: url("../images/about-app-bg.jpg");
   background-size: cover;
   width: 100%;
   min-height: 849px; }
@@ -75,8 +75,7 @@
     display: inline-block;
     width: 55%;
     color: #fefefe;
-    vertical-align: top;
-    padding-left: 10px; }
+    vertical-align: top; }
   .about-app__app-icon {
     padding-top: 112px;
     display: block;
@@ -110,7 +109,7 @@
     font-size: 0; }
   .features__image-wrapper {
     display: inline-block;
-    width: 50%;
+    width: 49%;
     vertical-align: middle;
     margin-top: 47px; }
   .features__image {
@@ -118,9 +117,9 @@
   .features__info {
     display: inline-block;
     vertical-align: middle;
-    width: 50%;
+    width: 51%;
     color: black;
-    padding: 30px 0 0 30px; }
+    padding: 30px 0 0 27px; }
   .features__info-heading {
     padding-bottom: 20px;
     font-size: 54px;
@@ -135,12 +134,13 @@
 .diet-plan {
   background-image: url("../images/plan-your-diet-bg.jpg");
   background-size: cover;
-  background-position-x: 43%;
-  width: 100%;
-  height: 926px; }
+  background-position: center;
+  width: 100%; }
   .diet-plan__wrapper {
     text-align: center;
-    padding: 130px 130px 0 130px; }
+    padding: 130px 130px 0 130px;
+    height: 963px;
+    position: relative; }
   .diet-plan__heading {
     padding-bottom: 20px;
     font-size: 54px;
@@ -151,6 +151,17 @@
     line-height: 36px;
     font-size: 18px;
     font-weight: 300; }
+  .diet-plan__phone-image {
+    position: relative;
+    bottom: 0;
+    z-index: 1;
+    max-width: 100%; }
+    .diet-plan__phone-image--left {
+      left: 30px;
+      z-index: 0; }
+    .diet-plan__phone-image--right {
+      left: -30px;
+      z-index: 0; }
 
 .meal-time__wrapper {
   font-size: 0;
@@ -218,14 +229,14 @@
     width: 35%; }
 
 .meal-time__product-description {
-  width: 35%; }
+  width: 36%; }
   .meal-time__product-description--large {
     width: 35%; }
 
 .meal-time__time {
   text-align: right;
   padding-right: 10px;
-  width: 35%; }
+  width: 34%; }
   .meal-time__time--large {
     width: 30%; }
 

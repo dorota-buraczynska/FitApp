@@ -60,7 +60,7 @@
     font-size: 18px; }
 
 .about-app {
-    background-image: url("../images/bg_02.jpg");
+    background-image: url("../images/about-app-bg.jpg");
   background-size: cover;
   width: 100%; }
   .about-app__wrapper {

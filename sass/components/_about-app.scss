@@ -1,5 +1,5 @@
 .about-app {
-  background-image: url("../images/bg_02.jpg");
+  background-image: url("../images/about-app-bg.jpg");
   background-size: cover;
   width: 100%;
   min-height: 849px;
@@ -16,7 +16,6 @@
     width: 55%;
     color: $menu-text-color;
     vertical-align: top;
-    padding-left: 10px;
   }
 
   &__app-icon {
